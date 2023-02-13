@@ -1,12 +1,14 @@
 # sql-challenge
 ---
 
-In this challenge, I do the data analysis about people whom a company employed during the 1980s and 1990s. I designed the tables to hold the data from the CSV files (inside the data folder), import the CSV files into a SQL database*(data modeling, data engineering)*, and then analyze the data to answer the questions (Employee_db_queries.sql). Employee database diagram has been shown in the following. Data types were selected according to the types specified in the csv files.
+In this challenge, I did the data analysis about people whom a company employed during the 1980s and 1990s. I designed the tables to hold the data from the CSV files (inside the data folder), imported the CSV files into a SQL database *(data modeling, data engineering)* , and then analyzed the data to answer the questions (Employee_db_queries.sql). Employee database diagram was shown in the following. Data types were selected according to the types specified in the CSV files.
 
 > Employee Database Diagram
+
 ![Employee Database Diagram](/EmployeeSQL/Employee_schema.png)
 
 > Employee Database Tables
+
 ``` sql
 
 CREATE TABLE "departments" (
